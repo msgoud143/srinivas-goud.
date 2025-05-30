@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        select{
+            color:red;
+        }
+        body{
+            background-color: darkgoldenrod;
+              
+        }
+        
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form></title>
+</head>
+<body>
+    
+    <header>
+        <h1 style= "text-align:center;"> Registration Form</h1>
+        <p style="text-align:center;"> fill out the form carefully for registration</p>
+
+        <img src="https://tse1.mm.bing.net/th?id=OIP.fO4nByjuSncyWvn1kEh9dAHaFC&pid=Api&P=0&h=180" alt="board">
+    </header>
+    <form action="https://formspree.io/f/mvgalakl" method="post">
+        <fieldset>
+    <legend>Personal details:</legend>
+        <label for="fname">Firstname</label><br><br>
+        <input type="text" id="fname"name="firstname"><br><br>
+        <label for="lname">Lastname:</label><br><br>
+        <input type="text" id="lname"name="stname"><br><br>
+        <label for="mobile no">Mobile no</label><br><br>
+        <input type="mobile no" id="mobile no" placeholder="mobile no" required><br><br>
+        <p>Gender:</p>
+        <input type="radio"  id="Gender" name="Gender" value="male">
+        <label for="male">male</label><br>
+        <input type="radio" id="Gender" name="Gender" value="female">
+         <label for="female">female</label><br>
+         <p>DOB</p>
+          <label for="birth date"></label>
+        <input type="datetime-local"id="birthday" name="birthday">
+         <input type="email" id="email" name="email" value="email">
+          <label for="email">email</label><br>
+          <P>Documents files</P>
+           <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+         <input type="submit" value="submit"> 
+        </fieldset>
+    
+         
+         
+    </form>
+
+</body>
+</html>
